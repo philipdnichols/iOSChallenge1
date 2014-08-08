@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11CF6CA1994935300E6BD08 /* PNLoginFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11CF6C91994935300E6BD08 /* PNLoginFormViewController.m */; };
+		B11CF6CD199495E500E6BD08 /* PNImageDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11CF6CC199495E500E6BD08 /* PNImageDisplayViewController.m */; };
 		B1C469BA1994921300587783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C469B91994921300587783 /* Foundation.framework */; };
 		B1C469BC1994921300587783 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C469BB1994921300587783 /* CoreGraphics.framework */; };
 		B1C469BE1994921300587783 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C469BD1994921300587783 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B11CF6C81994935300E6BD08 /* PNLoginFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLoginFormViewController.h; sourceTree = "<group>"; };
+		B11CF6C91994935300E6BD08 /* PNLoginFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLoginFormViewController.m; sourceTree = "<group>"; };
+		B11CF6CB199495E500E6BD08 /* PNImageDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNImageDisplayViewController.h; sourceTree = "<group>"; };
+		B11CF6CC199495E500E6BD08 /* PNImageDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNImageDisplayViewController.m; sourceTree = "<group>"; };
 		B1C469B61994921300587783 /* iOSChallenge1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSChallenge1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C469B91994921300587783 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1C469BB1994921300587783 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -164,6 +170,10 @@
 			children = (
 				B1C469CE1994921300587783 /* PNViewController.h */,
 				B1C469CF1994921300587783 /* PNViewController.m */,
+				B11CF6C81994935300E6BD08 /* PNLoginFormViewController.h */,
+				B11CF6C91994935300E6BD08 /* PNLoginFormViewController.m */,
+				B11CF6CB199495E500E6BD08 /* PNImageDisplayViewController.h */,
+				B11CF6CC199495E500E6BD08 /* PNImageDisplayViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -266,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11CF6CA1994935300E6BD08 /* PNLoginFormViewController.m in Sources */,
 				B1C469CA1994921300587783 /* PNAppDelegate.m in Sources */,
 				B1C469D01994921300587783 /* PNViewController.m in Sources */,
 				B1C469C61994921300587783 /* main.m in Sources */,
+				B11CF6CD199495E500E6BD08 /* PNImageDisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +485,7 @@
 				B1C469EA1994921300587783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1C469EB1994921300587783 /* Build configuration list for PBXNativeTarget "iOSChallenge1Tests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +494,7 @@
 				B1C469ED1994921300587783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
